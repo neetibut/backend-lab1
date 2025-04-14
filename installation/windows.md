@@ -5,13 +5,16 @@
 ### ✅ STEP 1: Download & Install Python
 
 1. Visit the official Python download page:  
-   👉 https://www.python.org/downloads/windows/
+   👉 https://www.python.org/downloads/windows/ <br>
+   👉 [Learn Python for Beginners on Windows](https://learn.microsoft.com/en-us/windows/python/beginners)
 
 2. Click on the **latest Python 3 release** under "Stable Releases" (e.g., `Python 3.13.x`)
 
 3. Download the **Windows installer (64-bit)**:
 
-   - File name: `python-3.13.x-amd64.exe`
+   - File name: `python-3.13.x-amd64.exe`<br>
+     or
+   - `winget install --id=Python.Python.3.12  -e`
 
 4. **Run the installer**:
 
