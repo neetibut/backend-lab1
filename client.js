@@ -14,7 +14,7 @@ const data = {
 // This sends the 'data' object as the body of the request to create a new post
 // ⬇️ Code here
 axios
-  .post(`http://localhost:${port}/posts`, data)
+  .post("http://localhost:3000/posts", data)
   .then((response) => {
     // If the request is successful, this block will run
     // We log the response from the server, which usually includes the created post

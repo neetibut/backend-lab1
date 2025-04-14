@@ -6,10 +6,10 @@ const express = require("express");
 const app = express();
 // Define the port number where the server will listen for requests
 // ⬇️ Code here
-const port = 3002;
+const port = 3000;
 // Use Express's built-in middleware to parse incoming JSON data in request bodies
 // ⬇️ Code here
-app.use(express.json);
+app.use(express.json());
 // Create a temporary array to store posts in memory (this simulates a database)
 // ⬇️ Code here
 let posts = [];
